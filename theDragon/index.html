@@ -12,64 +12,200 @@
         <!--Starting Point-->
         <div id="intro" class="step slide">
             <div class="slide-text">
-                <p>Choose a Cave</p>
-                <p></p>
-                <p></p>
-                <!--<p></p>-->
+                <p>You appear before a house.</p>
+                <p>The house is very old and rickety.</p>
+                <p>Entering the house you are stuck with the decision of going upstairs or downstairs.</p>
                 <br />
                 <p></p>
-                <p><a href="#cave1">CAVE 1</a></p>
+                <p><a href="#upper1">Upstairs</a></p>
                 <p>or</p>
-                <p><a href="#cave2">CAVE 2</a></p>
+                <p><a href="#lower1">Downstairs</a></p>
             </div>
         </div>
-        <!--First Cave-->
-        <div id="cave1" class="step slide" data-x="1000">
+
+        <!--Upstairs 1-->
+        <div id="upper1" class="step slide" data-x="1500">
             <div class="slide-text">
-                <p>You have entered the first cave</p>
-            <p></p>
-            <p></p>
+                <p>You are now upstairs</p>
+                <p>You see numerous rooms on the floor</p>
+                <p>with a door partially open</p>
             <br />
             <p></p>
-                <p><a href="#inner1">Go Left</a></p>
+                <p><a href="#upper2">Open Door</a></p>
+                <p>or</p>
+                <p><a href="#upper3">Enter another room.</a></p>
             </div> 
         </div> 
 
 
-        <!--Inner Cave 1-->
-        <div id="inner1" class="step slide" data-x="1500">
+        <!--Upstairs 2-->
+        <div id="upper2" class="step slide" data-x="3000">
             <div class="slide-text">
-                <p>You are inside Inner cave 1</p>
-                <p></p>
-                <p></p>
+                <p>You've entered the room, all around the room is dust collected furniture</p>
+                <p>On the floor there is numerous cracks and holes.</p>
+                <p>You notice a painting on the wall that seems to follow you, making you feel creeped out </p>
+                <p>You also notice the door beside it.</p>
                 <br />
                 <p></p>
-                <p><a href="#inner2">Go Right</a></p>
+                <p><a href="#death1">Investigate Painting</a></p>
+                <p>or</p>
+                <p><a href="#death2">Enter the next room.</a></p>
             </div>
         </div> 
 
-        <!--Inner Cave 2-->
-        <div id="inner2" class="step slide" data-x="2000">
+        <!--Upstairs 3-->
+        <div id="upper3" class="step slide" data-x="4500">
             <div class="slide-text">
-                <p>You are inside the Inner Cave 2.</p>
-                <p></p>
+                <p>You have entered what appears to be a study for the previous owner.</p>
+                <p>You notice numerous books</p>
                 <p></p>
                 <br />
                 <p></p>
+                <p><a href="#death3">Choice 1</a></p>
+                <p>or</p>
+                <p><a href="#death4">Choice 2</a></p>
             </div>
         </div> 
 
 
-        <!--Second Cave-->
-        <div id="cave2" class="step slide" data-x="-1500">
+        <!--Downstairs 1-->
+        <div id="lower1" class="step slide" data-x="-1500">
             <div class="slide-text">
-                <p>You have entered the second cave.</p>
-                <p></p>
-                <p></p>
+                <p>You are now downstairs. It is fairly dark, you wish you could see clearly. As to have a better idea of your surroundings.</p>
+                <p>You begin to search around for a lightswitch, hoping it might still work.</p>
+                <p>You are able to make out a door.</p>
+
+                <p><a href="#lower2">Enter Door</a></p>
+                <p>or</p>
+                <p><a href="#lower3">Continue searching for a lightswitch.</a></p>
             </div> 
+        </div>
+
+        <!--Downstairs 2-->
+        <div id="lower2" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>Entered Room See Numerous Containers</p>
+                <p></p>
+                <p></p>
+                <br />
+                <p></p>
+                <p><a href="#death5">Choice 1</a></p>
+                <p>or</p>
+                <p><a href="#success">Choice 2.</a></p>
+            </div>
+        </div> 
+
+        <!--Downstairs 3-->
+        <div id="lower3" class="step slide" data-x="-4500">
+            <div class="slide-text">
+                <p>Entered Room See Numerous Containers</p>
+                <p></p>
+                <p></p>
+                <br />
+                <p></p>
+                <p><a href="#death6">Choice 1</a></p>
+                <p>or</p>
+                <p><a href="#death7">Choice 2</a></p>
+            </div>
+        </div> 
+
+        <!--First Death Sequence-->
+        <div id="death1" class="step slide" data-y="-1500">
+            <div class="slide-text">
+                <p>You attempt to detach the painting from the wall but it appears to be stuck. </p>
+                <p>After numerous attempts you successfully detach the painting from the wall, checking to make sure there was nothing behind it truely watching you.</p>
+                <p>Removing the painting has caused the structurally weak wall to collapse causing the ceiling to cave in on you.</p>
+                <p>You are dead now.</p>
+            </div>
             <div class="menu">
                 <a href="#intro">START OVER</a>
-            </div> 
+            </div>
+        </div>
+        
+        <!--Second Death Sequence-->
+        <div id="death2" class="step slide" data-y="-3000">
+            <div class="slide-text">
+                <p>You entered what appears to be a bathroom with numerous cracks and holes on the floor.</p>
+                <p>Stepping forward to get a better look at the room, you hear a sound.</p>
+                <p>The floor collapses under you causing you to fall along with other bathroom appliances including the bathtub.</p>
+                <p>How unfortunate.</p>
+                <p>You are dead now.</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+        <!--Third Death Sequence-->
+        <div id="death3" class="step slide" data-y="-4500">
+            <div class="slide-text">
+                <p>You are dead now.</p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+        <!--Fourth Death Sequence-->
+        <div id="death4" class="step slide" data-y="-6000">
+            <div class="slide-text">
+                <p>You are dead now.</p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+        <!--Fifth Death Sequence-->
+        <div id="death5" class="step slide" data-y="-7500">
+            <div class="slide-text">
+                <p>You are dead now.</p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+        <!--Sixth Death Sequence-->
+        <div id="death6" class="step slide" data-y="-9000">
+            <div class="slide-text">
+                <p>You are dead now.</p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+        <!--Seventh Death Sequence-->
+        <div id="death7" class="step slide" data-y="-10500">
+            <div class="slide-text">
+                <p>You are dead now.</p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+        <!--Success Page-->
+        <div id="success" class="step slide" data-y="1500">
+            <div class="slide-text">
+                <p>You have succeded in survivng</p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
         </div>
 
     </div>
