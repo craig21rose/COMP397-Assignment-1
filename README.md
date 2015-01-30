@@ -1,2 +1,2 @@
-# theDragon
-template project  for COMP397 Assignment 1
+# Assignment 1
+COMP397 Assignment 1
