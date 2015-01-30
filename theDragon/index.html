@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>The Dragon!</title>
+    <title>Lucky or Unlucky? The Abandoned House</title>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
@@ -12,8 +12,8 @@
         <!--Starting Point-->
         <div id="intro" class="step slide">
             <div class="slide-text">
-                <p>You appear before a house.</p>
-                <p>The house is very old and rickety.</p>
+                <p>You appear before a house.The house is very old and rickety and seemingly abandoned. </p>
+                <p>You hold no memory of how you got here. However you feel compelled to enter.</p>
                 <p>Entering the house you are stuck with the decision of going upstairs or downstairs.</p>
                 <br />
                 <p></p>
@@ -23,22 +23,22 @@
             </div>
         </div>
 
-        <!--Upstairs 1-->
+        <!--Route 1 Decision 1-->
         <div id="upper1" class="step slide" data-x="1500">
             <div class="slide-text">
-                <p>You are now upstairs</p>
-                <p>You see numerous rooms on the floor</p>
-                <p>with a door partially open</p>
-            <br />
-            <p></p>
-                <p><a href="#upper2">Open Door</a></p>
+                <p>You are now upstairs.</p>
+                <p>You see numerous rooms on the floor with a door partially open.</p>
+                <p></p>
+                <br />
+                <p></p>
+                <p><a href="#upper2">Open door and enter room.</a></p>
                 <p>or</p>
                 <p><a href="#upper3">Enter another room.</a></p>
-            </div> 
-        </div> 
+            </div>
+        </div>
 
 
-        <!--Upstairs 2-->
+        <!--Route 1 Decision 2-->
         <div id="upper2" class="step slide" data-x="3000">
             <div class="slide-text">
                 <p>You've entered the room, all around the room is dust collected furniture</p>
@@ -51,24 +51,25 @@
                 <p>or</p>
                 <p><a href="#death2">Enter the next room.</a></p>
             </div>
-        </div> 
+        </div>
 
-        <!--Upstairs 3-->
+        <!--Route 1 Decision 3-->
         <div id="upper3" class="step slide" data-x="4500">
             <div class="slide-text">
                 <p>You have entered what appears to be a study for the previous owner.</p>
-                <p>You notice numerous books</p>
-                <p></p>
+                <p>Next to one of the shelves you notice what appears to be an antique rifle but you can't be sure.</p>
+                <p>You notice numerous books on shelves around the room and are curious as to what type of books they are.</p>
+                <p>Infront of one of the shelves if a ladder for enabling a person to reach or place books high up.</p>
                 <br />
                 <p></p>
-                <p><a href="#death3">Choice 1</a></p>
+                <p><a href="#death3">Hop on ladder.</a></p>
                 <p>or</p>
-                <p><a href="#death4">Choice 2</a></p>
+                <p><a href="#death4">Examine Gun.</a></p>
             </div>
-        </div> 
+        </div>
 
 
-        <!--Downstairs 1-->
+        <!--Route 2 Decision 1-->
         <div id="lower1" class="step slide" data-x="-1500">
             <div class="slide-text">
                 <p>You are now downstairs. It is fairly dark, you wish you could see clearly. As to have a better idea of your surroundings.</p>
@@ -78,36 +79,37 @@
                 <p><a href="#lower2">Enter Door</a></p>
                 <p>or</p>
                 <p><a href="#lower3">Continue searching for a lightswitch.</a></p>
-            </div> 
+            </div>
         </div>
 
-        <!--Downstairs 2-->
+        <!--Route 2 Decision 2-->
         <div id="lower2" class="step slide" data-x="-3000">
             <div class="slide-text">
-                <p>Entered Room See Numerous Containers</p>
-                <p></p>
-                <p></p>
+                <p>You entered the room, and notice the room is light by moonlight.</p>
+                <p>Around the room are numerous crates and boxes.</p>
+                <p>Looking inside the boxes you notice theres a lever in the bottom of one of them, however you'd have to get inside the box to be able to use it.</p>
+                <p>You examine the room and see that the lever is connected to a secret door.</p>
                 <br />
                 <p></p>
-                <p><a href="#death5">Choice 1</a></p>
+                <p><a href="#death5">Try to force the secret door open.</a></p>
                 <p>or</p>
-                <p><a href="#success">Choice 2.</a></p>
+                <p><a href="#success">Hop inside the box and pull the lever.</a></p>
             </div>
-        </div> 
+        </div>
 
-        <!--Downstairs 3-->
+        <!--Route 2 Decision 3-->
         <div id="lower3" class="step slide" data-x="-4500">
             <div class="slide-text">
-                <p>Entered Room See Numerous Containers</p>
-                <p></p>
-                <p></p>
+                <p>Having decided to continue to search for a lightswitch with the hope that it will still work.</p>
+                <p>You begin to feel around the walls of the room.</p>
+                <p>Eventually you come upon a switch, but it's location seems odd to you.</p>
                 <br />
                 <p></p>
-                <p><a href="#death6">Choice 1</a></p>
+                <p><a href="#death6">Flip Switch?</a></p>
                 <p>or</p>
-                <p><a href="#death7">Choice 2</a></p>
+                <p><a href="#death7">Find Another Switch.</a></p>
             </div>
-        </div> 
+        </div>
 
         <!--First Death Sequence-->
         <div id="death1" class="step slide" data-y="-1500">
@@ -115,19 +117,21 @@
                 <p>You attempt to detach the painting from the wall but it appears to be stuck. </p>
                 <p>After numerous attempts you successfully detach the painting from the wall, checking to make sure there was nothing behind it truely watching you.</p>
                 <p>Removing the painting has caused the structurally weak wall to collapse causing the ceiling to cave in on you.</p>
+                <p>How unfortunate.</p>
                 <p>You are dead now.</p>
             </div>
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div>
         </div>
-        
+
         <!--Second Death Sequence-->
         <div id="death2" class="step slide" data-y="-3000">
             <div class="slide-text">
                 <p>You entered what appears to be a bathroom with numerous cracks and holes on the floor.</p>
                 <p>Stepping forward to get a better look at the room, you hear a sound.</p>
                 <p>The floor collapses under you causing you to fall along with other bathroom appliances including the bathtub.</p>
+                <p>Which happens to land on you.</p>
                 <p>How unfortunate.</p>
                 <p>You are dead now.</p>
             </div>
@@ -139,10 +143,15 @@
         <!--Third Death Sequence-->
         <div id="death3" class="step slide" data-y="-4500">
             <div class="slide-text">
-                <p>You are dead now.</p>
-                <p></p>
-                <p></p>
+                <p>You climb the ladder, and begin to examine the types of books.</p>
+                <p>As your eyes scroll across the shelves while on the ladder you feel it begin to creek.</p>
+                <p>As you hastily try to get off the ladder, it breaks, causing you to fall over and panic.</p>
+                <p>Reaching out trying to grab onto something, you grab the rifle, and knock it down with it's barrel pointed at you.</p>
+                <p>As the rifle hits the ground, a shot goes off aimed at you. Turns out it wasn't an antique.</p>
+                <p>How unfortunate. You are dead now.</p>
             </div>
+            <br />
+            <br />
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div>
@@ -151,9 +160,11 @@
         <!--Fourth Death Sequence-->
         <div id="death4" class="step slide" data-y="-6000">
             <div class="slide-text">
+                <p>You use the ladder to take the gun off the wall and examine it.</p>
+                <p>However being unfamiliar with such things, you accidently pull the trigger while it's pointed at the roof.</p>
+                <p>As shot goes off and hits the ceiling causing the roof and part of the chimney to collapse in and fall on you.</p>
+                <p>How unfortunate.</p>
                 <p>You are dead now.</p>
-                <p></p>
-                <p></p>
             </div>
             <div class="menu">
                 <a href="#intro">START OVER</a>
@@ -163,9 +174,11 @@
         <!--Fifth Death Sequence-->
         <div id="death5" class="step slide" data-y="-7500">
             <div class="slide-text">
-                <p>You are dead now.</p>
-                <p></p>
-                <p></p>
+                <p>You attempt to force open the secret door with numerous objects around you. However none of them work.</p>
+                <p>You notice a crowbow shining in the moonlight across the room and grab it.</p>
+                <p>You use the crowbar on the door, however due to rusting and age the door quickly begins to fall forward towards you.</p>
+                <p>You fail to notice the door falling until it is to late and it falls on you crushing you.</p>
+                <p>How unfortunate. You are dead now.</p>
             </div>
             <div class="menu">
                 <a href="#intro">START OVER</a>
@@ -175,9 +188,11 @@
         <!--Sixth Death Sequence-->
         <div id="death6" class="step slide" data-y="-9000">
             <div class="slide-text">
+                <p>You flipped the switch hoping it would work. The lights turn on, however instantly turn off again.</p>
+                <p>Across the room, sparks instantly fly off the breaker, in large amounts, causing a fire to start and spread quickly.</p>
+                <p>You notice and try to run, but the fire has spread too quickly, and the stairs have collapsed.</p>
+                <p>How unfortunate.</p>
                 <p>You are dead now.</p>
-                <p></p>
-                <p></p>
             </div>
             <div class="menu">
                 <a href="#intro">START OVER</a>
@@ -187,10 +202,15 @@
         <!--Seventh Death Sequence-->
         <div id="death7" class="step slide" data-y="-10500">
             <div class="slide-text">
+                <p>Your search for another switch has granted you nothing so you decide to find one in another room.</p>
+                <p>You approach a door, and begin hearing strange sounds on the other side.</p> 
+                <p>When you open the door to the room, you find that numerous wild animals have made their home in the basement.</p>
+                <p>They feel threatened by your presence and instantly attack you.</p>
+                <p>How unfortunate.</p>
                 <p>You are dead now.</p>
-                <p></p>
-                <p></p>
             </div>
+            <br />
+            <br />
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div>
@@ -199,9 +219,11 @@
         <!--Success Page-->
         <div id="success" class="step slide" data-y="1500">
             <div class="slide-text">
-                <p>You have succeded in survivng</p>
-                <p></p>
-                <p></p>
+                <p>You hop into the box and pull the lever, making the door unlatch and fall down, opening.</p>
+                <p>Good thing you were inside the box.  As you get out and look what was beyond the door you gasp.</p>
+                <p>Inside is numerous collections of priceless antiques and paintings, collectively worth a fortune.</p>
+                <p>It seems somethings are finally going good in your life. </p>
+                <p>Congratulations! You are filthy rich!</p>
             </div>
             <div class="menu">
                 <a href="#intro">START OVER</a>
